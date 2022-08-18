@@ -13,6 +13,8 @@ we created those models without actually creating types. This might have been
 expedient, but it didn't take advantage of TypeScript's type functionality and
 shouldn't be the way we write code moving forward.
 
+## Refactoring
+
 Let's add proper types to our application code, starting with the "User" type we
 used in the `contact-list` and `contact` components.
 
